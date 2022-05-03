@@ -18,7 +18,7 @@ app.use("/public", express.static(__dirname + "/public"));
 
 
 app.get("/", (_, res) => {
-  res.send("Hello");
+  res.send("ddd");
 });
 
 
