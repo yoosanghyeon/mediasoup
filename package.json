@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js",
+    "start": "babel-node src/server.js",
     "dev": "nodemon --exec npm start"
   },
   "repository": {
@@ -25,6 +25,8 @@
     "@babel/preset-env": "^7.16.11",
     "express": "^4.18.1",
     "mediasoup": "^3.9.11",
+    "mediasoup-client": "^3.6.51",
+    "pug": "^3.0.2",
     "socket.io": "^4.5.0"
   },
   "devDependencies": {
